@@ -1,0 +1,15 @@
+C:\Users\glebm\OneDrive\Рабочий стол\C#\projects\AllLabs\AllLabs\AllLabsProject\bin\Debug\net6.0\AllLabsProject.exe
+C:\Users\glebm\OneDrive\Рабочий стол\C#\projects\AllLabs\AllLabs\AllLabsProject\bin\Debug\net6.0\AllLabsProject.deps.json
+C:\Users\glebm\OneDrive\Рабочий стол\C#\projects\AllLabs\AllLabs\AllLabsProject\bin\Debug\net6.0\AllLabsProject.runtimeconfig.json
+C:\Users\glebm\OneDrive\Рабочий стол\C#\projects\AllLabs\AllLabs\AllLabsProject\bin\Debug\net6.0\AllLabsProject.dll
+C:\Users\glebm\OneDrive\Рабочий стол\C#\projects\AllLabs\AllLabs\AllLabsProject\bin\Debug\net6.0\AllLabsProject.pdb
+C:\Users\glebm\OneDrive\Рабочий стол\C#\projects\AllLabs\AllLabs\AllLabsProject\obj\Debug\net6.0\AllLabsProject.csproj.AssemblyReference.cache
+C:\Users\glebm\OneDrive\Рабочий стол\C#\projects\AllLabs\AllLabs\AllLabsProject\obj\Debug\net6.0\AllLabsProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\glebm\OneDrive\Рабочий стол\C#\projects\AllLabs\AllLabs\AllLabsProject\obj\Debug\net6.0\AllLabsProject.AssemblyInfoInputs.cache
+C:\Users\glebm\OneDrive\Рабочий стол\C#\projects\AllLabs\AllLabs\AllLabsProject\obj\Debug\net6.0\AllLabsProject.AssemblyInfo.cs
+C:\Users\glebm\OneDrive\Рабочий стол\C#\projects\AllLabs\AllLabs\AllLabsProject\obj\Debug\net6.0\AllLabsProject.csproj.CoreCompileInputs.cache
+C:\Users\glebm\OneDrive\Рабочий стол\C#\projects\AllLabs\AllLabs\AllLabsProject\obj\Debug\net6.0\AllLabsProject.dll
+C:\Users\glebm\OneDrive\Рабочий стол\C#\projects\AllLabs\AllLabs\AllLabsProject\obj\Debug\net6.0\refint\AllLabsProject.dll
+C:\Users\glebm\OneDrive\Рабочий стол\C#\projects\AllLabs\AllLabs\AllLabsProject\obj\Debug\net6.0\AllLabsProject.pdb
+C:\Users\glebm\OneDrive\Рабочий стол\C#\projects\AllLabs\AllLabs\AllLabsProject\obj\Debug\net6.0\AllLabsProject.genruntimeconfig.cache
+C:\Users\glebm\OneDrive\Рабочий стол\C#\projects\AllLabs\AllLabs\AllLabsProject\obj\Debug\net6.0\ref\AllLabsProject.dll
