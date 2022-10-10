@@ -15,9 +15,9 @@ namespace AllLabsProject
             ProceduraTXT.FilesList(path1);
         }
 
-        public string Discription()
+        public string Description()
         {
-            return "Задания лабораторной 6";
+            return "Задания лабораторной №6";
         }
 
         public int Id()

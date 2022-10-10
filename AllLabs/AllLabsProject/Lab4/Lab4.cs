@@ -74,7 +74,7 @@ namespace AllLabsProject
             }
         }
 
-        public string Discription()
+        public string Description()
         {
             return "Задания лабораторной №4";
         }
