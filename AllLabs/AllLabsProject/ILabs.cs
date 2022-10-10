@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace AllLabsProject
 {
-    internal interface ILabs
+    public interface ILabs
     {
         public void Demo();
-        public string Discription();
+        public string Description();
         public int Id();
         public string Name();
     }

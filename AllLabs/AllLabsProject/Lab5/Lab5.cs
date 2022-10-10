@@ -13,7 +13,7 @@ namespace AllLabsProject
             MatrixInfo.PrintMatrixInfo(5);
         }
 
-        public string Discription()
+        public string Description()
         {
             return "Задания лабораторной №5";
         }
