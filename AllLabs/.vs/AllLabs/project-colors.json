@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e1aa559d-c147-47f7-acf0-0fe87f117429": {
+      "ProjectGuid": "e1aa559d-c147-47f7-acf0-0fe87f117429",
+      "DisplayName": "AllLabsProject",
+      "ColorIndex": 0
+    },
+    "c5c911bd-fcd1-489c-a7dd-ce3e6fa54182": {
+      "ProjectGuid": "c5c911bd-fcd1-489c-a7dd-ce3e6fa54182",
+      "DisplayName": "LessonsLib",
+      "ColorIndex": 1
+    },
+    "583598e2-0e96-4dba-93cb-819c5e41a19b": {
+      "ProjectGuid": "583598e2-0e96-4dba-93cb-819c5e41a19b",
+      "DisplayName": "LessonsInterface",
+      "ColorIndex": 2
+    },
+    "dfa35552-cf1f-41b2-89ad-879ba0615c1b": {
+      "ProjectGuid": "dfa35552-cf1f-41b2-89ad-879ba0615c1b",
+      "DisplayName": "AllLabsApp",
+      "ColorIndex": 3
+    },
+    "3ee3946a-3b8a-4daa-8fe8-7767d802633f": {
+      "ProjectGuid": "3ee3946a-3b8a-4daa-8fe8-7767d802633f",
+      "DisplayName": "LabsInterface",
+      "ColorIndex": 4
+    },
+    "f0b65413-2afe-4d22-92e8-c0af2f66259f": {
+      "ProjectGuid": "f0b65413-2afe-4d22-92e8-c0af2f66259f",
+      "DisplayName": "ConsoleApp1",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

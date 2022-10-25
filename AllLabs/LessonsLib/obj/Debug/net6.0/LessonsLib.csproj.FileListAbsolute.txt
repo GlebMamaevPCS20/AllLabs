@@ -1,0 +1,15 @@
+C:\Users\andre\source\repos\AllLabs\AllLabs\LessonsLib\bin\Debug\net6.0\LessonsLib.deps.json
+C:\Users\andre\source\repos\AllLabs\AllLabs\LessonsLib\bin\Debug\net6.0\LessonsLib.dll
+C:\Users\andre\source\repos\AllLabs\AllLabs\LessonsLib\bin\Debug\net6.0\ref\LessonsLib.dll
+C:\Users\andre\source\repos\AllLabs\AllLabs\LessonsLib\bin\Debug\net6.0\LessonsLib.pdb
+C:\Users\andre\source\repos\AllLabs\AllLabs\LessonsLib\obj\Debug\net6.0\LessonsLib.csproj.AssemblyReference.cache
+C:\Users\andre\source\repos\AllLabs\AllLabs\LessonsLib\obj\Debug\net6.0\LessonsLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\source\repos\AllLabs\AllLabs\LessonsLib\obj\Debug\net6.0\LessonsLib.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\AllLabs\AllLabs\LessonsLib\obj\Debug\net6.0\LessonsLib.AssemblyInfo.cs
+C:\Users\andre\source\repos\AllLabs\AllLabs\LessonsLib\obj\Debug\net6.0\LessonsLib.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\AllLabs\AllLabs\LessonsLib\obj\Debug\net6.0\LessonsLib.csproj.CopyComplete
+C:\Users\andre\source\repos\AllLabs\AllLabs\LessonsLib\obj\Debug\net6.0\LessonsLib.dll
+C:\Users\andre\source\repos\AllLabs\AllLabs\LessonsLib\obj\Debug\net6.0\ref\LessonsLib.dll
+C:\Users\andre\source\repos\AllLabs\AllLabs\LessonsLib\obj\Debug\net6.0\LessonsLib.pdb
+C:\Users\andre\source\repos\AllLabs\AllLabs\LessonsLib\bin\Debug\net6.0\LabsInterface.dll
+C:\Users\andre\source\repos\AllLabs\AllLabs\LessonsLib\bin\Debug\net6.0\LabsInterface.pdb
