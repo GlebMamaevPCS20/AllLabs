@@ -15,8 +15,9 @@ class AllLabs
         Type[] types = asm.GetTypes();                                              // выгрузка классов в массив
         foreach (Type type in types)                                                // перебираем классы и интерфейсы
         {
-            if ((type.IsInterface == false) && (type.IsAbstract == false))          // не добавляем абстрактные классы и интерфейсы
+            if ((type.IsInterface == false) && (type.IsAbstract == false) && (type.GetInterface("ILabs") != null))          // не добавляем абстрактные классы и интерфейсы
             {
+                
                 foreach (var method in type.GetMethods())                           // перебираем методы класса
                 {
                     if (method.ToString().Contains("Demo"))                         // если среди методов класса содержится Demo
@@ -25,6 +26,8 @@ class AllLabs
                         _labs.Add(lab);                                       // подгружаем этот класс в список уроков
                     }
                 }
+                
+                
             }
         }
     }
