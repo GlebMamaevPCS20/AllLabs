@@ -7,14 +7,41 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "AllLabsProject/1.0.0": {
+        "dependencies": {
+          "IlabsLib": "1.0.0",
+          "LabsLib": "1.0.0"
+        },
         "runtime": {
           "AllLabsProject.dll": {}
+        }
+      },
+      "IlabsLib/1.0.0": {
+        "runtime": {
+          "IlabsLib.dll": {}
+        }
+      },
+      "LabsLib/1.0.0": {
+        "dependencies": {
+          "IlabsLib": "1.0.0"
+        },
+        "runtime": {
+          "LabsLib.dll": {}
         }
       }
     }
   },
   "libraries": {
     "AllLabsProject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IlabsLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LabsLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

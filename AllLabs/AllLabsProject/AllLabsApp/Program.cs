@@ -1,19 +1,38 @@
 ﻿using AllLabsProject;
+using System.Reflection;
 
+namespace AllLabsProject;
 class AllLabs
 {
+    private static List<ILabs> _labs = new List<ILabs>();
+
+    /// <summary>
+    /// Метод получения списка уроков из dll библиотеки классов
+    /// </summary>
+    private static void LoadLabsList()
+    {
+        Assembly asm = Assembly.LoadFrom("LabsLib.dll");                         // создание сборки из библиотеки классов
+        Type[] types = asm.GetTypes();                                              // выгрузка классов в массив
+        foreach (Type type in types)                                                // перебираем классы и интерфейсы
+        {
+            if ((type.IsInterface == false) && (type.IsAbstract == false))          // не добавляем абстрактные классы и интерфейсы
+            {
+                foreach (var method in type.GetMethods())                           // перебираем методы класса
+                {
+                    if (method.ToString().Contains("Demo"))                         // если среди методов класса содержится Demo
+                    {
+                        ILabs lab = (ILabs)Activator.CreateInstance(type);
+                        _labs.Add(lab);                                       // подгружаем этот класс в список уроков
+                    }
+                }
+            }
+        }
+    }
     static void Main()
     {
-        List<ILabs> labs = new List<ILabs>();
-        labs.Add(new Lab1());
-        labs.Add(new Lab2());
-        labs.Add(new Lab3());
-        labs.Add(new Lab4());
-        labs.Add(new Lab5());
-        labs.Add(new Lab6());
-        labs.Add(new Lab7());
+        LoadLabsList();
 
-        Methods.LabsInfo(labs);
+        Methods.LabsInfo(_labs);
 
         bool running = true;
 
@@ -28,7 +47,7 @@ class AllLabs
                     Methods.Clear();
                     break;
                 case "info":
-                    Methods.LabsInfo(labs);
+                    Methods.LabsInfo(_labs);
                     break;
                 case "help":
                     Methods.Help();
@@ -38,7 +57,7 @@ class AllLabs
                     break;
                 default:
                     {
-                        Methods.Demo(labs, command);
+                        Methods.Demo(_labs, command);
                     }
                     break;
             }

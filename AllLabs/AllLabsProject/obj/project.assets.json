@@ -1,26 +1,69 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "IlabsLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/IlabsLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IlabsLib.dll": {}
+        }
+      },
+      "LabsLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "IlabsLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LabsLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LabsLib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "IlabsLib/1.0.0": {
+      "type": "project",
+      "path": "../IlabsLib/IlabsLib.csproj",
+      "msbuildProject": "../IlabsLib/IlabsLib.csproj"
+    },
+    "LabsLib/1.0.0": {
+      "type": "project",
+      "path": "../LabsLib/LabsLib.csproj",
+      "msbuildProject": "../LabsLib/LabsLib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "IlabsLib >= 1.0.0",
+      "LabsLib >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\andre\\.nuget\\packages\\": {}
+    "C:\\Users\\glebm\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\AllLabs\\AllLabs\\AllLabsProject\\AllLabsProject.csproj",
+      "projectUniqueName": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\AllLabsProject\\AllLabsProject.csproj",
       "projectName": "AllLabsProject",
-      "projectPath": "C:\\Users\\andre\\source\\repos\\AllLabs\\AllLabs\\AllLabsProject\\AllLabsProject.csproj",
-      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\source\\repos\\AllLabs\\AllLabs\\AllLabsProject\\obj\\",
+      "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\AllLabsProject\\AllLabsProject.csproj",
+      "packagesPath": "C:\\Users\\glebm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\AllLabsProject\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\glebm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,12 +71,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\IlabsLib\\IlabsLib.csproj": {
+              "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\IlabsLib\\IlabsLib.csproj"
+            },
+            "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\LabsLib\\LabsLib.csproj": {
+              "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\LabsLib\\LabsLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -51,7 +102,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +112,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
