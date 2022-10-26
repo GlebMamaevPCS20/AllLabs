@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AllLabsProject
 {
-    internal class ProceduraTXT
+    public class ProceduraTXT
     {
         static public void Procedura()
         {

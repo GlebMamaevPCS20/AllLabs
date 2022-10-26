@@ -6,26 +6,28 @@ using System.Threading.Tasks;
 
 namespace AllLabsProject
 {
-    internal class Lab5 : ILabs
+    public class Lab6 : ILabs
     {
         public void Demo()
         {
-            MatrixInfo.PrintMatrixInfo(5);
+            ProceduraTXT.Procedura();
+            string path1 = @"C:\Users\glebm\OneDrive\Рабочий стол\C#";
+            ProceduraTXT.FilesList(path1);
         }
 
         public string Description()
         {
-            return "Задания лабораторной №5";
+            return "Задания лабораторной №6";
         }
 
         public int Id()
         {
-            return 5;
+            return 6;
         }
 
         public string Name()
         {
-            return "Двумерные массивы";
+            return "Рекурсивные функции";
         }
     }
 }

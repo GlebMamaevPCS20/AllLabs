@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AllLabsProject
 {
-    internal class MatrixInfo
+    public class MatrixInfo
     {
         private void Mass(int n)
         {
