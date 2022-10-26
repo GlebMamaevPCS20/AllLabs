@@ -52,11 +52,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\AllLabsProject\\AllLabsProject.csproj",
+      "projectUniqueName": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\AllLabsProject\\AllLabsProject.csproj",
       "projectName": "AllLabsProject",
-      "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\AllLabsProject\\AllLabsProject.csproj",
+      "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\AllLabsProject\\AllLabsProject.csproj",
       "packagesPath": "C:\\Users\\glebm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\AllLabsProject\\obj\\",
+      "outputPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\AllLabsProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -78,11 +78,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\IlabsLib\\IlabsLib.csproj": {
-              "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\IlabsLib\\IlabsLib.csproj"
+            "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\IlabsLib\\IlabsLib.csproj": {
+              "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\IlabsLib\\IlabsLib.csproj"
             },
-            "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\LabsLib\\LabsLib.csproj": {
-              "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\LabsLib\\LabsLib.csproj"
+            "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\LabsLib\\LabsLib.csproj": {
+              "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\LabsLib\\LabsLib.csproj"
             }
           }
         }

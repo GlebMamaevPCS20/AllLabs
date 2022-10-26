@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\AllLabsProject\\AllLabsProject.csproj": {}
+    "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\AllLabsProject\\AllLabsProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\AllLabsProject\\AllLabsProject.csproj": {
+    "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\AllLabsProject\\AllLabsProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\AllLabsProject\\AllLabsProject.csproj",
+        "projectUniqueName": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\AllLabsProject\\AllLabsProject.csproj",
         "projectName": "AllLabsProject",
-        "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\AllLabsProject\\AllLabsProject.csproj",
+        "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\AllLabsProject\\AllLabsProject.csproj",
         "packagesPath": "C:\\Users\\glebm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\AllLabsProject\\obj\\",
+        "outputPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\AllLabsProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\IlabsLib\\IlabsLib.csproj": {
-                "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\IlabsLib\\IlabsLib.csproj"
+              "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\IlabsLib\\IlabsLib.csproj": {
+                "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\IlabsLib\\IlabsLib.csproj"
               },
-              "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\LabsLib\\LabsLib.csproj": {
-                "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\LabsLib\\LabsLib.csproj"
+              "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\LabsLib\\LabsLib.csproj": {
+                "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\LabsLib\\LabsLib.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\IlabsLib\\IlabsLib.csproj": {
+    "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\IlabsLib\\IlabsLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\IlabsLib\\IlabsLib.csproj",
+        "projectUniqueName": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\IlabsLib\\IlabsLib.csproj",
         "projectName": "IlabsLib",
-        "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\IlabsLib\\IlabsLib.csproj",
+        "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\IlabsLib\\IlabsLib.csproj",
         "packagesPath": "C:\\Users\\glebm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\IlabsLib\\obj\\",
+        "outputPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\IlabsLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -131,14 +131,14 @@
         }
       }
     },
-    "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\LabsLib\\LabsLib.csproj": {
+    "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\LabsLib\\LabsLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\LabsLib\\LabsLib.csproj",
+        "projectUniqueName": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\LabsLib\\LabsLib.csproj",
         "projectName": "LabsLib",
-        "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\LabsLib\\LabsLib.csproj",
+        "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\LabsLib\\LabsLib.csproj",
         "packagesPath": "C:\\Users\\glebm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\LabsLib\\obj\\",
+        "outputPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\LabsLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -160,8 +160,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\IlabsLib\\IlabsLib.csproj": {
-                "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\LAbs\\AllLabs\\IlabsLib\\IlabsLib.csproj"
+              "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\IlabsLib\\IlabsLib.csproj": {
+                "projectPath": "C:\\Users\\glebm\\OneDrive\\Рабочий стол\\C#\\projects\\AllLabs\\AllLabs\\AllLabs\\IlabsLib\\IlabsLib.csproj"
               }
             }
           }
